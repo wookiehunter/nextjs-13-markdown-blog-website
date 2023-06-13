@@ -1,0 +1,11 @@
+.notFound {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 3rem;
+}

@@ -1,0 +1,27 @@
+.layout {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--secondary-color);
+    font-family: var(--secondary-font), monospace;
+    font-size: 1.5rem;
+}
+
+/* Animations Start */
+/* Animations End */
+
+/* Media Query Start */
+@media screen and (min-width: 1024px) {
+
+}
+@media screen and (min-width: 3840px) {
+
+}
+/* Media Query End */

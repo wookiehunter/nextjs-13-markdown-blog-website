@@ -1,0 +1,10 @@
+.intro {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.intro_title {
+    min-height: 4rem;
+    font-size: 3rem;
+    margin: 1rem 0 !important;
+}

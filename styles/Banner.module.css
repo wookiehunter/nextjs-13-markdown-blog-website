@@ -1,0 +1,26 @@
+.bannerContainer {
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw; */
+    text-align: center;
+    font-family: var(--primary-font), monospace;
+    color: var(--primary-color);
+    background-color: #000;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .bannerContainer {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .bannerContainer {
+        font-size: 2.5rem;
+    }
+}@media screen and (min-width: 1920px) {
+    .bannerContainer {
+        font-size: 3rem;
+    }
+}

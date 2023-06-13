@@ -1,0 +1,54 @@
+html {
+	--primary-color: #fff;
+	--secondary-color: orangered;
+	--primary-background: #000;
+	--primary-font: Wallpoet, monospace;
+	--secondary-font: Play, sans-serif;
+	--primary-border-color: #ffffff79;
+	--secondary-border-color: orangered;
+}
+
+html,
+body {
+	background-color: #000;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	font-family: var(--secondary-font);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 1rem 0;
+}
+
+a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+a:hover {
+	color: var(--secondary-color);
+}
+a:active {
+	color: var(--secondary-color);
+}
+/* li::before {
+	align-self: center !important;
+	text-align: center !important;
+	justify-self: center !important;
+	margin-right: -100px !important;
+} */
+::marker {
+	color: var(--secondary-color) !important;
+	text-align: center;
+}
+
+/* Nav Links */
+.inactive,
+.active {
+	color: var(--primary-color);
+	margin-left: 10px;
+	padding: 8px;
+}
+.active {
+	color: var(--secondary-color) !important;
+}

@@ -1,0 +1,20 @@
+.contacts {
+	margin: 2rem 0;
+	text-align: center;
+}
+.contact {
+	margin-top: 1rem;
+	font-size: 2rem;
+}
+.icon {
+	color: var(--primary-color) !important;
+}
+.icon:hover,
+.icon:focus {
+    color: var(--secondary-color);
+}
+@media screen and (min-width: 1024px) {
+	.contact {
+		font-size: 2.5rem;
+	}
+}

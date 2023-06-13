@@ -1,0 +1,12 @@
+.skills {
+	margin: 2rem 0 !important;
+}
+.skills_group {
+	text-align: center !important;
+	margin-top: 16px 0 !important;
+}
+
+.skills_animation {
+	min-height: 2rem !important;
+	font-size: 1.25rem !important;
+}
