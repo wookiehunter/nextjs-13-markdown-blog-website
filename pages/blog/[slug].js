@@ -52,12 +52,8 @@ export default function BlogTemplate({ frontmatter, markdownBody }) {
 
 export async function getStaticProps(context) {
 	const { slug } = context.params;
-
 	const content = await import(`../../posts/${slug}.md`);
 	const data = matter(content.default);
-	// console.log("content", content)
-	// console.log("data", data)
-
 	return {
 		props: {
 			frontmatter: data.data,
@@ -68,16 +64,13 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
 	const blogs = globSync(`posts/*.md`);
-
 	const blogSlugs = blogs.map((file) =>
 		file.split('/')[1].replace(/ /g, '-').slice(0, -3).trim(),
 	);
-
 	// creating a path for each of the `slug` parameter
 	const paths = blogSlugs.map((slug) => {
 		return { params: { slug: slug } };
 	});
-
 	return {
 		paths,
 		fallback: false,
