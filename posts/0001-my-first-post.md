@@ -2,7 +2,7 @@
 title: 'My first post..?'
 author: 'Your Name'
 date: '2021-06-01T12:00:00.000Z'
-hero_image: /rocket.png
+hero_image: /magic.png
 intro: "I did a thing..."
 keywords: ""
 read: 3
