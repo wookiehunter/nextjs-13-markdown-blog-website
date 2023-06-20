@@ -36,7 +36,7 @@ const BlogList = ({ allBlogs }) => {
 										className={styles.image}
 									/>
 								</div>
-								{post.frontmatter.tag && (
+								{post.frontmatter.category && (
 									<div className={`tag_${post.frontmatter.category}`}>
 										{post.frontmatter.category}
 									</div>

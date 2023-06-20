@@ -55,7 +55,7 @@ export async function getServerSideProps(context) {
 	});
 
 	const filteredPosts = (posts, filterName) => {
-		const data = posts.filter((post) => post.frontmatter.tag === filterName);
+		const data = posts.filter((post) => post.frontmatter.category === filterName);
 		return data;
 	};
 
