@@ -42,6 +42,79 @@ a:active {
 	text-align: center;
 }
 
+.tag_Technology,
+.tag_Freelancing,
+.tag_Personal,
+.tag_Business {
+	text-align: center;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	padding: 0.2rem 0;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+}
+.tag_Freelancing {
+	background-color: yellowgreen;
+}
+.tag_Personal {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+.tag_Business {
+	background-color: darkblue;
+}
+
+.slugTag_Technology,
+.slugTag_Freelancing,
+.slugTag_Personal,
+.slugTag_Business {
+	text-align: center;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	padding: 0.2rem 0;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+	min-width: 250px;
+	border-radius: 5px;
+	margin-bottom: 2rem;
+}
+.slugTag_Freelancing {
+	background-color: yellowgreen;
+}
+.slugTag_Personal {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+.slugTag_Business {
+	background-color: darkblue;
+}
+
+.filterTag_Technology,
+.filterTag_Freelancing,
+.filterTag_Personal,
+.filterTag_Business {
+	text-align: center;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	padding: 0.2rem 0;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+.filterTag_Freelancing {
+	background-color: yellowgreen;
+}
+.filterTag_Personal {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+.filterTag_Business {
+	background-color: darkblue;
+}
+
 /* Nav Links */
 .inactive,
 .active {

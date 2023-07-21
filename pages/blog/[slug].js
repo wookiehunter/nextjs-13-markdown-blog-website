@@ -36,6 +36,7 @@ export default function BlogTemplate({ frontmatter, markdownBody }) {
 					<p>First posted: {reformatDate(frontmatter.date)}</p>
 					<p>Read time: {frontmatter.read} minutes</p>
 					<p>Written By: {frontmatter.author}</p>
+					{frontmatter.tag && <div className={`slugTag_${frontmatter.tag}`}>{frontmatter.tag}</div>}
 				</Col>
 				<Col className={styles.blog__body}>
 					<ReactMarkdown>{markdownBody}</ReactMarkdown>
