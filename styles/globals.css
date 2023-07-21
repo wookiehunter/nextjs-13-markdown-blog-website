@@ -54,7 +54,7 @@ a:active {
 	font-size: 1.5rem;
 }
 .tag_Freelancing {
-	background-color: #00796b;
+	background-color: yellowgreen;
 }
 .tag_Personal {
 	background-color: var(--primary-color);
@@ -79,7 +79,7 @@ a:active {
 	margin-bottom: 2rem;
 }
 .slugTag_Freelancing {
-	background-color: #00796b;
+	background-color: yellowgreen;
 }
 .slugTag_Personal {
 	background-color: var(--primary-color);
@@ -105,7 +105,7 @@ a:active {
 	cursor: pointer;
 }
 .filterTag_Freelancing {
-	background-color: #00796b;
+	background-color: yellowgreen;
 }
 .filterTag_Personal {
 	background-color: var(--primary-color);
